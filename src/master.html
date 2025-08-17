@@ -1,11 +1,460 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./output.css">
 </head>
+
 <body>
-    
+
+    <header class="bg-[#FEDAD5] py-[20px]">
+        
+        <nav class="flex items-center justify-between px-[50px] py-[    0px] gap-[100px]">
+            <img src="./img/logo.svg" alt="">
+            <div class="flex items-center gap-[20px]">
+                <p class="text-[#FF3F3A] font-[600]">About Us</p>
+                <p class="text-[#424551] font-[600]">Courses</p>
+                <p class="text-[#424551] font-[600]">Events</p>
+                <p class="text-[#424551] font-[600]">Blog</p>
+                <p class="text-[#424551] font-[600]">Contacts</p>
+            </div>
+            
+            <div class="flex items-center gap-[30px] ">
+                <button
+                class="px-[25px] py-[10px] bg-gradient-to-r from-[#FF3F3A] to-[#F75E05] text-white rounded-[4px]">Get
+                consultation</button>
+                <div class="flex items-center gap-[7px]">
+                    <img src="./img/Profile.svg" alt="">
+                    <p class="text-[#424551] font-[600]">Log in / Register</p>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="flex justify-between px-[50px] items-center">
+            
+            <div class="w-[40%]">
+                <p class="text-[50px] font-[700] text-[#1E212C] tracking-[1px]">Enjoy studying
+                    with Createx Online Courses</p>
+                    <div class=" flex gap-[40px] mt-[40px]">
+                        <button
+                        class="text-[#F75E05] px-[25px] py-[7px] border-[#FF3F3A] border-solid border-[1.5px] font-[500] rounded-[4px]">About
+                        us</button>
+                        <button
+                        class=" px-[25px] py-[7px] bg-gradient-to-r from-[#FF3F3A] to-[#F75E05] text-white rounded-[4px]">Explore
+                        courses</button>
+                    </div>
+                </div>
+                <img src="./img/illustration.svg" alt="" class="h-[450px]">
+            </div>
+        </header>
+
+        <p class="text-[2px] text-left">hf</p>
+        <main>
+            <section data-aos="fade-up" duration-[3s]
+            class="flex justify-center gap-[100px] items-center py-[100px] px-[50px]">
+            <img src="./img/a.svg" alt="" class="w-[52%]">
+            <div class="w-[30%] flex flex-col gap-[15px]">
+                <p class=" text-[17px] font-[600] text-[#1E212C] tracking-[1px]">Who we are</p>
+                <p class="font-[700] text-[#1E212C] tracking-[1px] text-[50px]">Why Createx?</p>
+                <div class="flex gap-[15px] items-start ">
+                    <img src="./img/check.svg" alt="">
+                    <p class="text-[#424551] font-[490]">A fermentum in morbi pretium aliquam adipiscing donec tempus.
+                    </p>
+                </div>
+                <div class="flex gap-[15px] items-start ">
+                    <img src="./img/check.svg" alt="">
+                    <p class="text-[#424551] font-[490]"> Vulputate placerat amet pulvinar lorem nisl.</p>
+                </div>
+                <div class="flex gap-[15px] items-start ">
+                    <img src="./img/check.svg" alt="">
+                    <p class="text-[#424551] font-[490]"> Consequat feugiat habitant gravida quisque elit bibendum id
+                        adipiscing sed.</p>
+                </div>
+                <div class="flex gap-[15px] items-start ">
+                    <img src="./img/check.svg" alt="">
+                    <p class="text-[#424551] font-[490]">Etiam duis lobortis in fames ultrices commodo nibh. </p>
+                </div>
+                <div class="flex gap-[15px] items-start ">
+                    <img src="./img/check.svg" alt="">
+                    <p class="text-[#424551] font-[490]"> Tincidunt sagittis neque sem ac eget.</p>
+                </div>
+                <div class="flex gap-[15px] items-start ">
+                    <img src="./img/check.svg" alt="">
+                    <p class="text-[#424551] font-[490]">Ultricies amet justo et eget quisque purus vulputate dapibus
+                        tortor. </p>
+                </div>
+                <button
+                    class=" px-[25px] py-[7px] bg-gradient-to-r from-[#FF3F3A] to-[#F75E05] text-white rounded-[4px] w-[50%]">More
+                    about us
+                </button>
+            </div>
+        </section>
+
+        <section>
+            <div class="flex justify-between px-[50px] items-end">
+
+                <div class="">
+
+                    <p class=" text-[17px] font-[600] text-[#1E212C] tracking-[1px]">Ready to learn?</p>
+                    <p class="font-[700] text-[#1E212C] tracking-[1px] text-[50px]">Featured Courses</p>
+                </div>
+                <button
+                    class="text-[#F75E05] px-[25px] py-[7px] border-[#FF3F3A] border-solid border-[1.5px] font-[500] rounded-[4px]">View
+                    all courses</button>
+            </div>
+            <div class=" flex flex-wrap justify-center gap-[40px] py-[30px]">
+                <div class=" w-[40%] shadow-md items-center flex ">
+                    <img src="./img/b.svg" alt="" data-aos="flip-left">
+                    <div class="border-[1px] py-[48px] border-solid border-[#E5E8ED] pl-[40px] ">
+                        <button class="rounded-[7px] px-[5px] py-[3px] text-white bg-[#03CEA4]">Marketing</button>
+                        <p class="text-[20px] font-[700] text-[#1E212C] tracking-[1px]">The Ultimate Google Ads Training
+                            Course</p>
+                        <div class="flex gap-[7px]">
+                            <p class="text-[18px] font-[700] text-[#FF4242] ">$100</p>
+                            <img src="./img/divider.svg" alt="">
+                            <p class="text-[18px]  text-[#787A80]">by Jerome Bell</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" w-[40%] shadow-md items-center flex ">
+                    <img src="./img/c.svg" alt="" data-aos="flip-right">
+                    <div class="border-[1px] py-[48px] border-solid border-[#E5E8ED] pl-[40px] ">
+                        <button class="rounded-[7px] px-[5px] py-[3px] text-white bg-[#5A87FC]">Management</button>
+                        <p class="text-[20px] font-[700] text-[#1E212C]">Prduct Management Fundamentals</p>
+                        <div class="flex gap-[7px]">
+                            <p class="text-[18px] font-[700] text-[#FF4242] ">$480</p>
+                            <img src="./img/divider.svg" alt="">
+                            <p class="text-[18px]  text-[#787A80]">by Marvin McKinney</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" w-[40%] shadow-md items-center flex ">
+                    <img src="./img/d.svg" alt="" data-aos="flip-left">
+                    <div class="border-[1px] py-[48px] border-solid border-[#E5E8ED] pl-[40px] ">
+                        <button class="rounded-[7px] px-[5px] py-[3px] text-white bg-[#F89828]">HR & Recruting</button>
+                        <p class="text-[20px] font-[700] text-[#1E212C]">HR Management and Analytics</p>
+                        <div class="flex gap-[7px]">
+                            <p class="text-[18px] font-[700] text-[#FF4242] ">$200</p>
+                            <img src="./img/divider.svg" alt="">
+                            <p class="text-[18px]  text-[#787A80]">by Leslie Alexander Li</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" w-[40%] shadow-md items-center flex ">
+                    <img src="./img/e.svg" alt="" data-aos="flip-right">
+                    <div class="border-[1px] py-[48px] border-solid border-[#E5E8ED] pl-[40px] ">
+                        <button class="rounded-[7px] px-[5px] py-[3px] text-white bg-[#03CEA4]">Marketing</button>
+                        <p class="text-[20px] font-[700] text-[#1E212C]">Brand Management & PR Communications</p>
+                        <div class="flex gap-[7px]">
+                            <p class="text-[18px] font-[700] text-[#FF4242] ">$530</p>
+                            <img src="./img/divider.svg" alt="">
+                            <p class="text-[18px]  text-[#787A80]">by Kristin Watson</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" w-[40%] shadow-md items-center flex ">
+                    <img src="./img/f.svg" alt="" data-aos="flip-left">
+                    <div class="border-[1px] py-[48px] border-solid border-[#E5E8ED] pl-[40px] ">
+                        <button class="rounded-[7px] px-[5px] py-[3px] text-white bg-[#5A87FC]">Management</button>
+                        <p class="text-[20px] font-[700] text-[#1E212C]">Business Development Management</p>
+                        <div class="flex gap-[7px]">
+                            <p class="text-[18px] font-[700] text-[#FF4242] ">$400</p>
+                            <img src="./img/divider.svg" alt="">
+                            <p class="text-[18px]  text-[#787A80]">by Dianne Russell</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" w-[40%] shadow-md items-center flex ">
+                    <img src="./img/g.svg" alt="" data-aos="flip-right">
+                    <div class="border-[1px] py-[48px] border-solid border-[#E5E8ED] pl-[40px] ">
+                        <button class="rounded-[7px] px-[5px] py-[3px] text-white bg-[#F52F6E]">Design</button>
+                        <p class="text-[20px] font-[700] text-[#1E212C]">Graphic Design Basic</p>
+                        <div class="flex gap-[7px]">
+                            <p class="text-[18px] font-[700] text-[#FF4242] ">$500</p>
+                            <img src="./img/divider.svg" alt="">
+                            <p class="text-[18px]  text-[#787A80]">by Guy Hawkins</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </section>
+        <section data-aos="zoom-in" duration-[3s]>
+            <div class="">
+
+                <p class="text-center  text-[17px] font-[600] text-[#1E212C] tracking-[1px]">Our benefits</p>
+                <p class="text-center font-[700] text-[#1E212C] tracking-[1px] text-[50px]"> That’s how we do it</p>
+            </div>
+            <div class=" flex justify-center gap-[100px] py-[20px]">
+                <div class="flex gap-[9px] items-center">
+                    <img src="./img/Star.svg" alt="">
+                    <p class="font-[600] text-[#FF3F3A]">Experienced Tutors</p>
+                </div>
+                <div class="flex gap-[9px] items-center">
+                    <img src="img/like.svg" alt="">
+                    <p class="font-[600] text-[#9A9CA5]">Feedback & Support</p>
+                </div>
+                <div class="flex gap-[9px] items-center">
+                    <img src="./img/Layouts.svg" alt="">
+                    <p class="font-[600] text-[#9A9CA5]">24/7 Online Library</p>
+                </div>
+                <div class="flex gap-[9px] items-center">
+                    <img src="./img/Chat.svg" alt="">
+                    <p class="font-[600] text-[#9A9CA5]">Community</p>
+                </div>
+            </div>
+            <div class="flex justify-between px-[55px] items-center py-[30px]" data-aos="zoom-in" duration-[3s]>
+
+                <div class="w-[40%]">
+                    <p class="text-[32px] text-[#1E212C] font-[700]">Only practicing tutors</p>
+                    <p class="font-[500] text-[#424551]">Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non
+                        fames dictum suspendisse. Morbi mauris
+                        cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa.
+                        Fermentum
+                        diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi
+                        tempus
+                        vehicula.</p>
+                </div>
+                <img src="./img/illustration (1).svg" alt="" class="h-[400px]">
+            </div>
+        </section>
+        <section>
+            <div class=" flex items-end justify-between px-[55px] py-[20px]">
+
+                <div class="">
+
+                    <p class=" text-[17px] font-[600] text-[#1E212C] tracking-[1px]">Best tutors are all here</p>
+                    <p class=" font-[700] text-[#1E212C] tracking-[1px] text-[50px]"> Meet our team</p>
+                </div>
+                <div class=" flex items-center gap-[20px]">
+
+                    <button
+                        class="bg-gradient-to-r from-[#FF3F3A] to-[#F75E05] text-black p-[7px] hover:scale-110 hover:shadow-xl transition-all duration-300 hover:from-[#FFB800] hover:to-[#FFD93D] rounded-[50%] ">
+                        <img src="./img/arrow_left_alt_27dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""> </button>
+                    <button
+                        class="bg-gradient-to-r from-[#FF3F3A] to-[#F75E05] text-black p-[7px] hover:scale-110 hover:shadow-xl  transition-all duration-300 hover:from-[#FFB800] hover:to-[#FFD93D] rounded-[50%] ">
+                        <img src="./img/arrow_right_alt_27dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+                </div>
+            </div>
+            <div class="flex items-center gap-[10px] justify-center">
+                <div data-aos="flip-up" class="w-[285px] justify-center flex flex-col items-center">
+                    <div class="w-[240px] h-[234px] pl-[20px] pt-[20px] rounded-[4px] bg-[#FFCF2D] mb-[20px]"><img
+                            src="./img/f.svg"></div>
+                    <p class="text-[#424551] text-[20px] font-[700] mb-[5px] text-center">Dianne Russell</p>
+                    <p class="text-[#787A80] text-center">Founder and CEO</p>
+                </div>
+                <div data-aos="flip-up" class="w-[285px] justify-center flex flex-col items-center">
+                    <div class="w-[240px] h-[234px] pl-[20px] pt-[20px] rounded-[4px] bg-[#FFCF2D] mb-[20px]"><img
+                            src="./img/b.svg"></div>
+                    <p class="text-[#424551] text-[20px] font-[700] mb-[5px] text-center">Jerome Bell</p>
+                    <p class="text-[#787A80] text-center">Founder and Program Director</p>
+                </div>
+                <div data-aos="flip-up" class="w-[285px] justify-center flex flex-col items-center">
+                    <div class="w-[240px] h-[234px] pl-[20px] pt-[20px] rounded-[4px] bg-[#FFCF2D] mb-[20px]"><img
+                            src="./img/e.svg"></div>
+                    <p class="text-[#424551] text-[20px] font-[700] mb-[5px] text-center">Kristin Watson</p>
+                    <p class="text-[#787A80] text-center">Marketer, Curator of Marketing Course</p>
+                </div>
+                <div data-aos="flip-up" class="w-[285px] justify-center flex flex-col items-center">
+                    <div class="w-[240px] h-[234px] pl-[20px] pt-[20px] rounded-[4px] bg-[#FFCF2D] mb-[20px]"><img
+                            src="./img/c.svg"></div>
+                    <p class="text-[#424551] text-[20px] font-[700] mb-[5px] text-center">Marvin McKinney</p>
+                    <p class="text-[#787A80] text-center">PM, Curator of Management Course</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="mx-[50px]">
+             <p class=" text-[17px] font-[600] text-[#1E212C] tracking-[1px]">Our blog</p>
+             <div class="flex items-center justify-between">
+                <p class=" font-[700] text-[#1E212C] tracking-[1px] text-[50px]"> Latest posts</p>
+                 <button
+                        class=" px-[25px] py-[7px] bg-gradient-to-r from-[#FF3F3A] to-[#F75E05] text-white rounded-[4px]">Go to blog
+                        </button>
+            </div>
+
+            <div class="flex items-center justify-center gap-[50px]">
+                <div class="w-[390px] h-[507px]">
+                    <div
+                        class="relative w-[85px] h-[23px] rounded-[4px] flex items-center justify-center gap-[5px] bg-white left-[17px] top-[40px]">
+                        <img src="./img/mic.svg">
+                        <p class="text-[#424551] text-[14px]">Podcast</p>
+                    </div>
+                    <img class="mb-[15px]" src="./img/sini ushas.svg">
+
+                    <div class="text-[#787A80] mb-[15px] text-[14px] flex items-center gap-[10px]">
+                        <p class="font-[700]">Marketing</p>
+                        <div class="bg-[#787A80] w-[1px] h-[12px]"></div>
+                        <img src="./img/Calendar.svg">
+                        <p>September 4, 2020</p>
+                        <div class="bg-[#787A80] w-[1px] h-[12px]"></div>
+                        <img src="./img/Clock.svg">
+                        <p>36 min</p>
+                    </div>
+                    <p class="text-[#1E212C] leading-[150%] mb-[10px] text-[20px] font-[650]">What is traffic arbitrage
+                        and does it really make money?</p>
+                    <p class="text-[#424551] leading-[160%] mb-[10px]">Pharetra, ullamcorper iaculis viverra parturient
+                        sed id sed. Convallis proin dignissim lacus, purus gravida...</p>
+                    <div class="flex items-start gap-[10px] font-[650]">
+                        <p>Listen</p>
+                        <img src="./img/Right.svg">
+                    </div>
+                </div>
+
+                <div class="w-[390px] h-[507px]">
+                    <div
+                        class="relative w-[85px] h-[23px] rounded-[4px] flex items-center justify-center gap-[5px] bg-white left-[17px] top-[40px]">
+                        <img src="./img/Play.svg">
+                        <p class="text-[#424551] text-[14px]">Video</p>
+                    </div>
+                    <img class="mb-[15px]" src="./img/zeleni lampochka.svg">
+
+                    <div class="text-[#787A80] mb-[15px] text-[14px] flex items-center gap-[10px]">
+                        <p class="font-[700]">Marketing</p>
+                        <div class="bg-[#787A80] w-[1px] h-[12px]"></div>
+                        <img src="./img/Calendar.svg">
+                        <p>August 25, 2020</p>
+                        <div class="bg-[#787A80] w-[1px] h-[12px]"></div>
+                        <img src="./img/Clock.svg">
+                        <p>45 min</p>
+                    </div>
+                    <p class="text-[#1E212C] leading-[150%] mb-[20px] text-[20px] font-[650]">What to do and who to talk
+                        to if you want to get feedback on the product</p>
+                    <p class="text-[#424551] leading-[160%] mb-[25px]">Neque a, senectus consectetur odio in aliquet nec
+                        eu. Ultricies ac nibh urna urna sagittis faucibus...</p>
+                    <div class="flex items-start gap-[10px] font-[650]">
+                        <p>Watch</p>
+                        <img src="./img/Right.svg">
+                    </div>
+                </div>
+
+                <div class="w-[390px] h-[507px]">
+                    <div
+                        class="relative w-[85px] h-[23px] rounded-[4px] flex items-center justify-center gap-[5px] bg-white left-[17px] top-[40px]">
+                        <img src="./img/Files.svg">
+                        <p class="text-[#424551] text-[14px]">Article</p>
+                    </div>
+                    <img class="mb-[15px]" src="./img/wapka.svg">
+
+
+                    <div class="text-[#787A80] mb-[15px] text-[14px] flex items-center gap-[10px]">
+                        <p class="font-[700]">Marketing</p>
+                        <div class="bg-[#787A80] w-[1px] h-[12px]"></div>
+                        <img src="./img/Calendar.svg">
+                        <p>August 8, 2020</p>
+                    </div>
+                    <p class="text-[#1E212C] leading-[150%] mb-[10px] text-[20px] font-[650]">Should you choose a
+                        creative profession if you are attracted to creativity?</p>
+                    <p class="text-[#424551] leading-[160%] mb-[10px]">Curabitur nisl tincidunt eros venenatis
+                        vestibulum ac placerat. Tortor, viverra sed vulputate ultrices...</p>
+                    <div class="flex items-start gap-[10px] font-[650]">
+                        <p>Read</p>
+                        <img src="./img/Right.svg">
+                    </div>
+                </div>
+            </div>
+        </section>
+<br><br><br>
+
+
+        <section class="bg-[#FEDAD5] py-[50px] flex flex-col gap-[10px] items-center">
+            <p class=" text-[17px] font-[600] text-[#1E212C] tracking-[1px]">Don’t miss anything</p>
+
+            <p class="text-[50px] font-[700] text-[#1E212C] tracking-[1px] text-center leading-[60px]">Subscribe to the
+                Createx School <br> announcements</p>
+            <br>
+            <div class=" flex gap-[10px]">
+
+                <input type="text" placeholder="Your working email" class="py-[7px] pl-[15px] rounded-[4px]  outline-none w-[300px]  focus:border-[#FF3F3A] focus:ring-2 focus:ring-offset-1 
+                focus:ring-[#FF3F3A] transition-all duration-300">
+                <button
+                    class=" px-[25px] py-[7px] bg-gradient-to-r from-[#FF3F3A] to-[#F75E05] text-white rounded-[4px]">Subscribe</button>
+            </div>
+        </section>
+
+    </main>
+    <!-- <footer>
+     <div class="">
+        <img src="./img/logo.svg" alt="">
+     </div>
+    </footer> -->
+
+
+
+    <footer class="bg-[#1E212C]">
+        <div class="container mx-auto py-[30px] px-[55px]">
+            <div class="flex flex-row justify-between items-start px-4">
+                <div class=" w-[24%] ">
+                    <img src="./img/logo (1).svg" alt="Logo" class="">
+                    <p class="text-[#9A9CA5] text-[14px] py-[15px]">Createx Online School is a leader in online
+                        studying. We have
+                        lots
+                        of courses
+                        and programs from the main market experts. We provide relevant approaches to online learning,
+                        internships and employment in the largest companies in the country. </p>
+                    <img src="./img/socials.svg" alt="">
+
+                </div>
+
+                <div class=" w-[10%] ">
+                    <h3 class="font-bold mb-2 text-white">SITE MAP</h3>
+                    <p class="text-[#9A9CA5]">About Us</p>
+                    <p class="text-[#9A9CA5]">Courses</p>
+                    <p class="text-[#9A9CA5]">Events</p>
+                    <p class="text-[#9A9CA5]">Blog</p>
+                    <p class="text-[#9A9CA5]">Contacts</p>
+                </div>
+
+                <div class=" w-[10%] ">
+                    <h3 class="font-bold mb-2 text-white">COURSES</h3>
+                    <p class="text-[#9A9CA5]">Marketing</p>
+                    <p class="text-[#9A9CA5]">Management</p>
+                    <p class="text-[#9A9CA5]">HR & Recruting</p>
+                    <p class="text-[#9A9CA5]">Design</p>
+                    <p class="text-[#9A9CA5]">Development</p>
+                </div>
+
+                <div class=" w-[13%] ">
+                    <h3 class="font-bold mb-2 text-white">CONTACT US</h3>
+                    <div class=" flex items-center gap-[10px]">
+                        <img src="./img/iPhone.svg" alt="">
+                        <p class="text-[#9A9CA5]">(405) 555-0128</p>
+                    </div>
+                    <div class="flex gap-[10px] ">
+                        <img src="./img/Mail.svg" alt="">
+                        <p class="text-[#9A9CA5]">hello@createx.com</p>
+                    </div>
+
+                </div>
+
+                <div class=" w-[25%] ">
+                    <h3 class="font-bold mb-2 text-white">SIGN UP TO OUR NEWSLETTER</h3>
+                    <input type="text" placeholder="Your working email" class="my-[20px] py-[7px] pl-[15px] rounded-[4px]  outline-none w-[300px]  focus:border-[#2e2e2e] focus:ring-2 focus:ring-offset-1 
+                focus:ring-[#545454] transition-all duration-300">
+                    <p class="text-[#9A9CA5] text-[14px]">*Subscribe to our newsletter to receive communications and
+                        early updates from Createx SEO Agency.</p>
+
+                </div>
+
+            </div>
+        </div>
+        <hr class="border-[#3a3a3a] border-[1px] border-solid my-[20px]">
+        <div class="bg-[] flex justify-between px-[65px] items-center pb-[20px]   ">
+            <img src="./img/copyright.svg" alt="">
+            <p class="text-[#9A9CA5]">GO TO TOP</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
